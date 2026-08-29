@@ -1,0 +1,20 @@
+services:
+  conveyor_defect_inspector:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: conveyor_defect_inspector
+
+    restart: no
+  
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+
+    ports:
+      - "8000:8000"

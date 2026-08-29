@@ -1,0 +1,9 @@
+{
+  "last_updated": null,
+  "running_total_count": 0,
+  "running_clean_count": 0,
+  "running_defective_count": 0,
+  "defect_rate_percentage": 0.0,
+  "last_counted_plank_id": null,
+  "last_status": null
+}
